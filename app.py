@@ -12,9 +12,9 @@ def colorizer(img):
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
 
     # load model files
-    prototxt = r"C:\Users\asus\OneDrive\Desktop\Machine learning\BLACK_WHITE_IMAGE-OPENCV\models\models_colorization_deploy_v2.prototxt"
-    model = r"C:\Users\asus\OneDrive\Desktop\Machine learning\BLACK_WHITE_IMAGE-OPENCV\models\colorization_release_v2.caffemodel"
-    points = r"C:\Users\asus\OneDrive\Desktop\Machine learning\BLACK_WHITE_IMAGE-OPENCV\models\pts_in_hull.npy"
+    prototxt = "models/models_colorization_deploy_v2.prototxt"
+    model = "models/colorization_release_v2.caffemodel"
+    points = "models/pts_in_hull.npy"
 
     net = cv2.dnn.readNetFromCaffe(prototxt, model)
     pts = np.load(points)
