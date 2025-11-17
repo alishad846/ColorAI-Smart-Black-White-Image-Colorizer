@@ -1,7 +1,7 @@
 streamlit==1.31.0
-numpy==1.26.4
+numpy==1.25.0
 opencv-python-headless==4.9.0.80
-Pillow==10.3.0
+Pillow==10.0.0
 requests==2.32.3
-pandas==2.3.3
-altair==5.5.0
+pandas==2.0.3
+altair==5.0.1
