@@ -1,5 +1,12 @@
+# -------------------------
+# Core packages
+# -------------------------
 streamlit==1.31.0
-numpy==1.25.0
+numpy==1.26.4
 opencv-python-headless==4.9.0.80
-Pillow==9.5.0
+Pillow==10.3.0
 requests==2.32.3
+
+# Optional for advanced visualization (already compatible)
+pandas==2.3.3
+altair==5.5.0
